@@ -29,4 +29,12 @@ public class Student {
         return grade >= 13;
     }
 
+    public void printStatus(){
+        if (isPassed()) {
+            System.out.println("The student has passed");
+        } else {
+            System.out.println("The student has not passed");
+        }
+    }
+
 }
