@@ -6,5 +6,7 @@ public class App {
         Calculator.execute(5, 20, '*');
 
         Calculator.displayEvenNumbers(5, 10);
+
+        Calculator.factorial(1);
     }
 }
